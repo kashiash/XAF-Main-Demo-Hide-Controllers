@@ -37,31 +37,21 @@ Tworzymu interfejs którym rozszerzymy model naszej aplikacji:
 
         [Category("Custom DetailView")]
         bool ShowDeleteActionDetailView { get; set; }
-
-
         [Category("Custom DetailView")]
         bool ShowFilterActionsDetailView { get; set; }
-
-
         [Category("Custom DetailView")]
         bool ShowNavigationActionsDetailView { get; set; }
-
-
         [Category("Custom DetailView")]
         bool ShowResetViewSettingsActionDetailView { get; set; }
-
         [Category("Custom DetailView")]
         bool ShowSaveActionDetailView { get; set; }
-
-
         [Category("Custom DetailView")]
         bool ShowSaveAndNewActionDetailView { get; set; }
-
-
         [Category("Custom DetailView")]
         bool ShowValidateAction { get; set; }
     }
 ```
+
 
 rejestrujemy to rozszerzenie w podstawowym module:
 
